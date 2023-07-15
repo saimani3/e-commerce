@@ -1,0 +1,50 @@
+.table-container {
+    height: 400px; /* Set the desired height of the table container */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    display: block; /* Change the display property to enable scrolling */
+    margin: 10px 0px 0px 10px;
+  }
+
+.Search-products{
+    float: left;
+    margin: 10px 0px 0px 40px;
+}
+.add-prodcuts{
+    float: right;
+    margin: 10px 40px 0px 0px;
+}
+.prodiv{
+    /* background-color: pink; */
+    width: 100%;
+    height: 50px;
+}
+.table-products{
+    /* margin: 10px 0px 0px 10px; */
+    text-align: center;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid;
+  }
+.products-images{
+    width: 50px;
+    height: 60px;
+    border-radius: 200px;
+    page-break-inside:auto 
+}
+tr{
+    page-break-inside:avoid; 
+    page-break-after:auto
+}
+
+.bg-info{
+    margin-left: 10px;
+}
+
+
+.productdata-submit{
+    margin: 30px 0px 0px 150px;
+    width: 200px;
+    text-align: center;
+}

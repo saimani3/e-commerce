@@ -1,0 +1,38 @@
+.title-cart{
+    text-align: center;
+    font-weight: bold;
+}
+.table-container {
+    height: 400px; /* Set the desired height of the table container */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    display: block; /* Change the display property to enable scrolling */
+    margin: 20px 70px 0px 150px;
+  }
+  .table-products{
+    /* margin: 10px 0px 0px 10px; */
+    text-align: center;
+    width: 100%;
+}
+
+th ,td{
+    border: 1px solid;
+  }
+.products-images{
+    width: 50px;
+    height: 60px;
+    border-radius: 200px;
+    page-break-inside:auto 
+}
+tr{
+    page-break-inside:avoid; 
+    page-break-after:auto
+}
+
+.price-total{
+    margin: 20px 0px 0px 400px;
+}
+
+.empty-cart{
+    font-size: 300px;
+    color: red;
+}

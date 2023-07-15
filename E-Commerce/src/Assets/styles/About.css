@@ -1,0 +1,19 @@
+.backcolor{
+    padding-top: 0px;
+    background-image: url('../images/sliderimg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+    .parlex-back {
+    padding: 30px 0;
+    background-color: rgba(0, 0, 0, 0.37);
+    color: #FDFDFD !important;
+    }
+.textline{
+    text-align: justify;
+    margin: 0px 20px 10px 20px;
+    word-spacing: 8px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}

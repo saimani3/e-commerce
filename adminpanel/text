@@ -1,0 +1,52 @@
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+// import Dashboard from './Dashboard';
+// import ProductManagement from './ProductManagement';
+// import OrderManagement from './OrderManagement';
+// import CustomerManagement from './CustomerManagement';
+
+const AdminPanel = () => {
+  return (
+    <div className="admin-panel">
+      <h1>sai</h1>
+      <NavLink to="" activeClassName="active">
+                Dashboard
+              </NavLink>
+        {/* <nav>
+          <ul>
+            <li>
+              <NavLink to="" activeClassName="active">
+                Dashboard
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="" activeClassName="active">
+                Product Management
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="" activeClassName="active">
+                Order Management
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="" activeClassName="active">
+                Customer Management
+              </NavLink>
+            </li>
+          </ul>
+        </nav> */}
+
+      {/* <main>
+        <Switch>
+          <Route path="/admin/dashboard" component={Dashboard} />
+          <Route path="/admin/products" component={ProductManagement} />
+          <Route path="/admin/orders" component={OrderManagement} />
+          <Route path="/admin/customers" component={CustomerManagement} />
+        </Switch>
+      </main> */}
+    </div>
+  );
+};
+
+export default AdminPanel;
